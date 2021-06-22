@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bdf7c2df60f14f521ae50b096fbbb3ad",
+    "revision": "e752f58f0b47fa8aff86d8b26ca24019",
     "url": "/Reactjs-bitcoin/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Reactjs-bitcoin/static/css/2.2cc849e2.chunk.css"
   },
   {
-    "revision": "fcd921307b13e24c667c",
+    "revision": "20a7efa249bbb3f9faea",
     "url": "/Reactjs-bitcoin/static/css/main.b459c017.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Reactjs-bitcoin/static/js/2.bea9559a.chunk.js"
   },
   {
-    "revision": "fcd921307b13e24c667c",
-    "url": "/Reactjs-bitcoin/static/js/main.1025896c.chunk.js"
+    "revision": "20a7efa249bbb3f9faea",
+    "url": "/Reactjs-bitcoin/static/js/main.49beeb3b.chunk.js"
   },
   {
     "revision": "aea1a273070914365f00",
