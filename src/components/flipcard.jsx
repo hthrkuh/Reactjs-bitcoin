@@ -5,7 +5,7 @@ import CardFront from "./cardfront"
 import Stock from "./Stock"
 import "../css/card.css"
 
-class Card extends React.Component {
+class Card extends Component {
     constructor(props) {
         super(props);
 
@@ -29,7 +29,7 @@ class Card extends React.Component {
     coin = e => {
 
         this.setState((state) => {
-            return { loading2: true, checked: !this.state.checked, coin: state.coin == "ILS" ? "USD" : "ILS" }
+            return { loading2: true, checked: !this.state.checked, coin: state.coin === "ILS" ? "USD" : "ILS" }
         }
             , () => this.fetchStock())
 
@@ -95,7 +95,7 @@ class Card extends React.Component {
                             })
 
                             let keys = Object.keys(obj)
-                            for (var key in obj2) {
+                            for (key in obj2) {
                                 obj.dates.push(key);
                                 let x = [`1a. open (${coin})`, `2a. high (${coin})`, `3a. low (${coin})`, `4a. close (${coin})`]
 
@@ -194,10 +194,10 @@ class Card extends React.Component {
 
 
 class FlippingCardPage extends React.Component {
-    constructor(props) {
-        super(props);
+    // constructor(props) {
+    //     super(props);
 
-    }
+    // }
     render() {
         return (
             <div className="container ">
